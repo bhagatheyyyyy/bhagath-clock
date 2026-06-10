@@ -1,0 +1,35 @@
+body{
+    margin:0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background:#2c3e50;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.clock-box{
+    background:white;
+    padding:30px 40px;
+    border-radius:12px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+h1{
+    color:#2c3e50;
+    margin-bottom:20px;
+}
+
+#time{
+    font-size:55px;
+    font-weight:bold;
+    color:#3498db;
+    margin-bottom:15px;
+}
+
+#day,
+#date{
+    color:#555;
+    margin-top:5px;
+}
